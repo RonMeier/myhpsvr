@@ -11,8 +11,7 @@ Datei myhpsvr auf Rasperry kopieren und die nötigen ausführbaren Rechte erteil
 
 myhpsvr kann auch in autostart eingetragen werden (siehe unten)
 Aufruf der Webseite mit: RapyIP:Port 1190 (standard)/Befehl
-z.B.   192.168.1.50:1190/help
-
+z.B.   192.168.1.50:1190/help 
 Befehle:
 cmd= mit cmd können alle internen Befehle des Raspberry ausgeführt werden (die Ausgabe der Console wird auf der Webseite angezeigt)   
 192.168.1.50:1190/cmd=ls -la /home/pi     listet das Verzeichnis von /home/pi auf 
@@ -29,6 +28,6 @@ Logwerte in csv-Datei schreiben: logdatacsv=[file=/home/pi/dateiname.csv] 192.16
 csv-Datei anzeigen: 192.168.1.50:1190/lesen=/home/pi/dateiname.csv  
 Letzte Zeile von csv auslesen: 192.168.1.50:1190/letztezeile=/home/pi/dateiname.csv 
 
-In autostart eintragen: 
-sudo nano /etc/rc.local 
+In autostart eintragen:   
+sudo nano /etc/rc.local   
 Zeile vor exit 0 eintragen:     /usr/local/bin/myhpsvr  

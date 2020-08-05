@@ -3,10 +3,12 @@ kleiner Webserver für Raspberry
 
 Installation: 
 Datei myhpsvr auf Rasperry kopieren und die nötigen ausführbaren Rechte erteilen.
+
 1.	myhpsvr nach /home/pi kopieren (mit winscp)
 2.	sudo mv myhpsvr /usr/local/bin
 3.	sudo chmod +x /usr/local/bin/myhpsvr
 4.	Statren mit: 	sudo myhpsvr & 
+
 myhpsvr kann auch in autostart eingetragen werden (siehe unten)
 Aufruf der Webseite mit: RapyIP:Port 1190 (standard)/Befehl
 z.B.   192.168.1.50:1190/help

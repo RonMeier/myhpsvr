@@ -14,8 +14,7 @@ Aufruf der Webseite mit: RapyIP:Port 1190 (standard)/Befehl
 z.B.   192.168.1.50:1190/help
 
 Befehle:
-cmd= mit cmd können alle internen Befehle des Raspberry ausgeführt werden (die Ausgabe der Console wird auf der Webseite angezeigt)
-
+cmd= mit cmd können alle internen Befehle des Raspberry ausgeführt werden (die Ausgabe der Console wird auf der Webseite angezeigt) 
 192.168.1.50:1190/cmd=ls -la /home/pi     listet das Verzeichnis von /home/pi auf
 Weitere Beispiele:
 192.168.1.50:1190/lesen=/var/log/syslog   listet das syslog auf

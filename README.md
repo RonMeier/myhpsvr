@@ -23,7 +23,7 @@ Eintrag in Log: cmd=logger -t myhpsvr -p daemon.info Server laeuft
 UDP senden: udp=[port=9000] [ip=][Text=] (default-port ist 7777) 
 Beispiel: udp=returnstring oder udp=port=5000 ip=192.168.1.1 returnstring
 Datei-Download 1: dl=/var/log/syslog   	(mit Dialog-Box)
-Datei-Download 2: rb=[/pfad/]file  z.B. IP:Port/rb=/home/pi/Doku.pdf  
+Datei-Download 2: rb=[/pfad/]file  z.B. IP:Port/rb=/home/pi/Doku.pdf
 Datei-Download 3: xl=[/pfad/]file
 Logwerte in csv-Datei schreiben: logdatacsv=[file=/home/pi/dateiname.csv] 192.168.1.50:1190/logdatacsv=wert=12.2 oder logdatacsv=wert=Text in csv schreiben
 csv-Datei anzeigen: 192.168.1.50:1190/lesen=/home/pi/dateiname.csv

@@ -4,7 +4,7 @@ kleiner Webserver für Raspberry
 Installation: 
 Datei myhpsvr auf Rasperry kopieren und die nötigen ausführbaren Rechte erteilen.
 
-1.	myhpsvr nach /home/pi kopieren (mit winscp)
+1.	myhpsvr nach /home/pi kopieren 
 2.	sudo mv myhpsvr /usr/local/bin
 3.	sudo chmod +x /usr/local/bin/myhpsvr
 4.	Statren mit: 	sudo myhpsvr & 

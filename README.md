@@ -1,5 +1,6 @@
 # myhpsvr
 kleiner Webserver für Raspberry
+mit myhpsvr lassen sich alle Raspberry-Befehle über den Webbrowser ausführen, Dateien können angezeigt oder heruntergeladen werden, udp-Packete versendet werden. 
 
 Installation: 
 Datei myhpsvr auf Rasperry kopieren und die nötigen ausführbaren Rechte erteilen.

@@ -9,7 +9,6 @@ Installation: Datei myhpsvr auf Rasperry kopieren und die nötigen ausführbaren
     Statren mit: sudo myhpsvr &
 	
 Aufruf der Webseite mit: RapyIP:Port/Befehl
-
 z.B. 192.168.1.50:1190/help 	
 Befehle: cmd= mit cmd können alle internen Befehle des Raspberry ausgeführt werden (die Ausgabe der Console wird auf der Webseite angezeigt)	
 192.168.1.50:1190/cmd=ls -la /home/pi listet das Verzeichnis von /home/pi auf 	

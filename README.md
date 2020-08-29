@@ -23,5 +23,5 @@ Logwerte in csv-Datei schreiben: logdatacsv=[file=/home/pi/dateiname.csv] 192.16
 csv-Datei anzeigen: 192.168.1.50:1190/lesen=/home/pi/dateiname.csv
 Letzte Zeile von csv auslesen: 192.168.1.50:1190/letztezeile=/home/pi/dateiname.csv
 
-myhpsvr in autostart eingetragen: sudo nano /etc/rc.local
+myhpsvr in autostart eingetragen: sudo nano /etc/rc.local   
 Zeile vor exit 0 eintragen: /usr/local/bin/myhpsvr
